@@ -5,7 +5,7 @@ export function Todos(props) {
   return (
     <div>
       <h1 className='text-center'>todos list</h1>
-      {props.todot.length==0 ? "no todos left" :
+      {props.todot.length===0 ? "no todos left" :
       props.todot.map((todo)=>{
         return <Todo todo={todo} key={todo.sno}ondelete={props.ondelete}/>
       })
