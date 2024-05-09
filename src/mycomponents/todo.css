@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.htodo{
+    color: blue;
+}
+.todolists{
+    margin: 100px;
+}
